@@ -61,3 +61,11 @@
 - JUnit adalah test framework yang paling populer di Java
 - Saat ini versi terbaru JUnit adalah versi 5
 - JUnit 5 membutuhkan Java minimal versi 8
+
+# Membuat Test
+
+- Untuk membuat test di JUnit itu sederhana, kita cukup membuat class, lalu menambahkan method-method test nya
+- Method akan dianggap sebuah test jika ditambahkan annotation @Test
+- Kode test disimpan dibagian test folder di maven, bukan di main folder
+- Biasanya saat membuat class untuk test, rata-rata orang biasa membuat nama class nya sama dengan nama class yang akan di test, tetapi diakhiri dengan kata Test
+- Misal jika nama class nya adalah Calculator, maka nama class test nya adalah CalculatorTest
